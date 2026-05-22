@@ -1,133 +1,52 @@
 # Qyvaria
 
-**Qyvaria** is the public home of **Qyvaria OS**, the **Qyvaria Python kernel**,
-Qyvaria Studio website materials, and related project documentation.
+**Qyvaria is an experimental AI operating kernel: a portable Python runtime for agent simulation, memory, reasoning, safety, prompt engineering, voice systems, and AI orchestration.**
 
-Owner: **John Havlasek**  
-Contact: **Qyvaria1ai@gmail.com**
+It is not just a chatbot wrapper.  
+It is not only a prompt tool.  
+It is not a single model.
 
-## Licence
+Qyvaria is a modular AI-system laboratory packaged into a self-contained Python bundle. It brings together simulated agents, safety layers, memory components, language tools, orchestration logic, prompt-generation systems, voice/runtime experiments, and kernel-style utilities into one inspectable project.
 
-The Qyvaria source code, including the Qyvaria kernel released in this repository,
-is licensed under the:
+> **Status:** Early public research release. Qyvaria is experimental, evolving quickly, and intended for developers, researchers, builders, and AI-system explorers.
 
-# Apache License 2.0
+---
 
-SPDX identifier: `Apache-2.0`
+## What is Qyvaria?
 
-This means people may:
+Qyvaria is a Python-based AI kernel and simulation environment designed to explore how AI systems can be organized like an operating system.
 
-- use Qyvaria commercially;
-- study and reverse engineer the source;
-- modify it;
-- fork it;
-- redistribute it;
-- combine it with other software;
-- build commercial products with it;
+Instead of treating AI as one isolated prompt-response box, Qyvaria treats intelligence as a stack:
 
-subject to the Apache-2.0 requirements, including preservation of licence and
-NOTICE information where applicable.
+- **Agents** that can simulate roles, goals, behavior, planning, emotion, reasoning, and evaluation
+- **Memory systems** for storing, retrieving, and organizing knowledge
+- **Safety and policy layers** for guardrails, consent, filtering, and human oversight
+- **Prompt engineering modules** for generating stronger prompts across image, text, and creative engines
+- **Voice and conversation modules** for experimental conversational runtimes
+- **Analysis tools** for code, language, reasoning, data, provenance, and evaluation
+- **Kernel-style orchestration** for connecting modules into a larger AI runtime
 
-See:
-- `LICENSE`
-- `NOTICE`
+Qyvaria is the foundation for building, testing, and studying AI systems that feel less like isolated scripts and more like coordinated software organisms.
 
-## Project scope
+---
 
-This repository is intended to contain:
+## Why Qyvaria exists
 
-- the Qyvaria Python kernel;
-- Qyvaria OS source and related code;
-- public website HTML and documentation;
-- public release metadata;
-- third-party licence notices;
-- contribution and security policies.
+Most AI projects are built as narrow wrappers around one model or one API.
 
-## Official downloads
+Qyvaria takes a different approach.
 
-Public source repository:
-- `https://github.com/Havlasek1John/Qyvaria`
-
-Qyvaria OS release/download repository:
-- `https://github.com/Havlasek1John/Qyvaria-OS-`
-
-## Repository structure
+The goal is to build a **portable AI operating layer** where many pieces of an intelligent system can live together:
 
 ```text
-Qyvaria/
-├─ README.md
-├─ LICENSE
-├─ NOTICE
-├─ CONTRIBUTING.md
-├─ SECURITY.md
-├─ CODE_OF_CONDUCT.md
-├─ TRADEMARKS.md
-├─ THIRD_PARTY_NOTICES_DRAFT.md
-├─ docs/
-│  ├─ FULL_APACHE_LICENSING_PLAN.md
-│  ├─ GITHUB_AND_SITE_CHANGES.md
-│  ├─ OUTPUT_POLICY.md
-│  ├─ PRIVACY_POLICY_DRAFT.md
-│  ├─ WEBSITE_TERMS_DRAFT.md
-│  └─ RELEASE_CHECKLIST.md
-├─ site/
-│  └─ qyvaria_full_apache_site.html
-├─ public/
-│  └─ README.md
-└─ releases/
-   └─ README.md
-```
-
-## Credit
-
-Suggested credit where practical:
-
-> Qyvaria by John Havlasek.
-
-or
-
-> Built with Qyvaria.
-
-Apache-2.0 does not require every product UI to show a marketing credit, but it
-does preserve copyright and NOTICE obligations where applicable.
-
-## Third-party software
-
-Qyvaria uses or may integrate with open-source packages, APIs, models, and tools.
-Those third-party materials keep their own licences and terms.
-
-A draft inventory is included in:
-- `THIRD_PARTY_NOTICES_DRAFT.md`
-
-Before final public release, generate a versioned dependency list and SBOM from
-the actual build environment.
-
-## Security reports
-
-Send security reports to:
-- `Qyvaria1ai@gmail.com`
-
-## Cloudinary/media note
-
-Frontend website files should contain only public delivery URLs and public-safe
-asset identifiers. Never place Cloudinary API secrets or other secrets in HTML,
-JavaScript, README files, or GitHub commits.
-
-## Included Qyvaria OS public software release
-
-This repository upload package also includes the Qyvaria OS public Windows release
-artifacts under:
-
-- `releases/QyvariaOS_GitHub_Public_Release_Package/`
-
-That folder contains:
-- the Windows installer executable;
-- the installer ZIP wrapper;
-- public icon assets;
-- release notes;
-- SHA-256 checksums;
-- a release manifest.
-
-The standalone Qyvaria kernel source remains at:
-- `qyvaria.py`
-
+User
+  ↓
+Qyvaria Interface
+  ↓
+Policy / Safety / Guardrails
+  ↓
+Agent Runtime
+  ↓
+Memory + Reasoning + Tools
+  ↓
+Models / Simulations / Voice / Data / Output
