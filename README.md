@@ -30,6 +30,8 @@ Special credit goes to **Jiří Burda** for innovational ideals, inspiration, mo
 
 Qyvaria exists not only because of code, but because of ideas, persistence, support, experimentation, learning, and belief in what AI systems can become when they are built with purpose.
 
+https://www.linkedin.com/in/ji%C5%99%C3%AD-burda-468230404/
+https://github.com/Airse002
 ---
 
 ## What is Qyvaria?
