@@ -1,0 +1,5 @@
+# Qyvaria public repository minimal requirements
+# qyvaria.py is a single-file bundle. Standard-library-only usage may work for the prompt generator path.
+# OS desktop packages may restore npm/Electron dependencies separately.
+
+# Optional development/testing helpers can be added here later.

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Qyvaria OS and Qyvaria AI Software"
+message: "If you use Qyvaria, please cite this repository."
+type: software
+authors:
+  - family-names: "Havlasek"
+    given-names: "Jan"
+license: "Apache-2.0"
+repository-code: "https://github.com/Havlasek1John/Qyvaria"
+keywords:
+  - qyvaria
+  - qyvaria-os
+  - ai-software
+  - ai-kernel
+  - prompt-engineering
+  - agent-simulation
+  - python

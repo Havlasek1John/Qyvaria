@@ -1,0 +1,9 @@
+Qyvaria OS / Qyvaria AI Software / qyvaria.py
+
+Copyright 2025 Jan Havlasek
+
+This product includes Qyvaria source materials released under the Apache License, Version 2.0.
+
+Qyvaria OS desktop packages may include, restore, or depend on third-party components such as Electron, React, React DOM, Vite, npm packages, Python packages, and optional AI/ML libraries. Those third-party components remain under their own licenses.
+
+This NOTICE file is informational and does not modify the Apache License 2.0.
