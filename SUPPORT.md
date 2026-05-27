@@ -1,14 +1,31 @@
 # Support
 
-For general Qyvaria questions, use GitHub Issues.
+For Qyvaria feedback, discussion, suggestions, user questions, testing notes, and community support, use the Qyvaria Forums:
 
-For security-sensitive reports, do not open a public issue. Use a private maintainer contact channel.
+https://qyvaria.boards.net/
 
-When asking for help, include:
+For Qyvaria software reference and wiki-style navigation, use:
+
+https://qyvaria-ai-studio-index.vercel.app/
+
+For repository-specific bugs or documentation changes, use GitHub Issues:
+
+https://github.com/Havlasek1John/Qyvaria/issues
+
+## When asking for support
+
+Please include:
 
 - operating system
 - Python version
+- Qyvaria OS package version, if relevant
 - command used
 - error message
 - expected result
-- whether you are using `qyvaria.py`, the Windows package, or the Linux package
+- what you already tried
+
+## Security-sensitive reports
+
+Do not post secrets, private keys, tokens, personal data, exploit details, or confidential logs publicly.
+
+Use a private maintainer contact channel for security-sensitive issues.

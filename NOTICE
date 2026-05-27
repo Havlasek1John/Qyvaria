@@ -4,6 +4,19 @@ Copyright 2025 Jan Havlasek
 
 This product includes Qyvaria source materials released under the Apache License, Version 2.0.
 
-Qyvaria OS desktop packages may include, restore, or depend on third-party components such as Electron, React, React DOM, Vite, npm packages, Python packages, and optional AI/ML libraries. Those third-party components remain under their own licenses.
+Qyvaria is a long-running, continuously evolving project. It is expected to keep changing through new releases, new documentation, testing, feedback, and public discussion.
 
-This NOTICE file is informational and does not modify the Apache License 2.0.
+Special acknowledgement:
+Jiri Burda is credited for inspiration, motivation, testing, training, and support given in regard to Qyvaria.
+
+Public feedback:
+Feedback, testing notes, ideas, and community support are welcome through Qyvaria Forums:
+https://qyvaria.boards.net/
+
+Public Qyvaria software wiki / index:
+https://qyvaria-ai-studio-index.vercel.app/
+
+Third-party notice:
+Qyvaria uses, references, depends on, interoperates with, or may be distributed alongside third-party open-source software and ecosystems. Those third-party components remain under their own licenses. This includes, where applicable, software from the Python, Node.js, npm, Electron, React, Vite, FastAPI, NumPy, pandas, scikit-learn, Pillow, PyTorch, Git, GitHub, and broader open-source communities.
+
+If a third-party credit, license, or attribution notice is incomplete, please report it so it can be corrected.
