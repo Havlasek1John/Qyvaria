@@ -1,74 +1,84 @@
 # Qyvaria
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Qyvaria-AI%20Kernel-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Type-Single%20File%20Python%20Runtime-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Qyvaria-Prompt%20Kernel-8A2BE2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Type-Single%20File%20AI%20Runtime-black?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Focus-Prompt%20Engineering-00BFFF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge"/>
 </p>
 
 ---
 
 ## Overview
 
-**Qyvaria** is an open-source AI engineering runtime built around a single-file Python kernel (`qyvaria.py`). It is designed as a modular prompt-generation and orchestration system for image-generation workflows, multi-engine prompt structuring, and AI experimentation.
+**Qyvaria** is a single-file AI prompt generation kernel designed to transform structured intent into high-quality, engine-ready prompts for generative AI systems.
 
-Rather than being a traditional application, Qyvaria acts as a **lightweight AI kernel layer** that transforms structured input (subjects, styles, environments, and parameters) into deterministic or semi-randomized prompt systems for downstream generative engines such as SDXL, MidJourney-style pipelines, Flux, or generic text-to-image systems.
+It acts as a **prompt synthesis runtime**, bridging human ideas and image-generation engines like:
+
+- SDXL pipelines
+- MidJourney-style systems
+- Flux workflows
+- Generic text-to-image models
 
 ---
 
 ## Core Concept
 
-Qyvaria is built on the idea of a **Prompt Kernel Architecture**:
+Qyvaria is built around a **Prompt Kernel Architecture**:
 
-- A structured input (`PromptSpec`)
-- A style system (cinematic, photoreal, anime, diagram, etc.)
-- Engine abstraction layer (SDXL / MidJourney / Flux / Generic)
-- Deterministic randomness via seed control
-- Negative prompt synthesis system
-- Output serialization (CLI / JSON / TXT)
+> Input → Structured Prompt Spec → Style Engine → Camera/Lighting System → Engine Wrapper → Final Prompt Output
 
-This enables reproducible prompt generation across different AI image systems.
+This allows:
+- Reproducible prompts
+- Cross-model compatibility
+- Deterministic or randomized generation
+- Scalable prompt engineering workflows
 
 ---
 
-## Key Features
+## Features
 
-### 🎨 Prompt Generation Engine
-Automatically constructs high-quality prompts from structured inputs:
-- Subject-driven prompt synthesis
-- Style packs (cinematic, photoreal, anime, vector, diagram, etc.)
-- Lighting, composition, and camera system presets
-- Material and environment augmentation
+### 🎨 Style System
+Built-in creative and technical styles:
+- Cinematic
+- Photorealistic
+- Product photography
+- Interior / architecture
+- Anime
+- Macro
+- Blueprint / diagram
+- Vector / UI mock
+- Watercolor
+
+Each style influences:
+- Lighting setup
+- Camera configuration
+- Composition rules
+- Negative prompt generation
+
+---
 
 ### ⚙️ Multi-Engine Support
-Qyvaria supports multiple generation backends:
-- **SDXL-style pipelines**
-- **MidJourney-style formatting**
-- **Flux-compatible structure**
-- **Generic prompt output mode**
 
-### 🎲 Deterministic Randomization
-- Seed-based reproducibility
-- Controlled variation across outputs
-- Multi-prompt batch generation (`-n` parameter)
+- **SDXL** → structured prompt + negative prompt + parameters  
+- **MidJourney** → compact stylized CLI format  
+- **Flux** → JSON-style guided generation  
+- **Generic** → clean universal prompt output  
 
-### 🧠 Style Intelligence System
-Predefined style packs include:
-- Cinematic
-- Photoreal
-- Product photography
-- Interior design
-- Architecture
-- Macro
-- Watercolor
-- Pixel / vector / blueprint / UI mock
+---
 
-### 📦 CLI-First Design
-Qyvaria is fully controllable via command-line interface:
-- JSON or text output modes
-- Batch generation support
-- Engine selection flags
-- Fully scriptable workflow integration
+### 🎲 Reproducibility System
+- Seed-based deterministic output
+- Controlled randomness
+- Batch generation support (`-n` runs)
+
+---
+
+### 🚫 Intelligent Negative Prompting
+Automatically generated based on:
+- Style type
+- Engine constraints
+- Quality filters (blur, artifacts, distortion, etc.)
 
 ---
 
