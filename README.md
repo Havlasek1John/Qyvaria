@@ -1,92 +1,80 @@
 # Qyvaria
 
-> **An open-source AI ecosystem for local-first intelligence, AI engineering, and an operating-system-style workspace.**
-
-![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)
-![Status](https://img.shields.io/badge/Status-Alpha-orange.svg)
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB.svg)
-
----
-
-## What is Qyvaria?
-
-Qyvaria is an open-source platform that combines AI software, a browser-native operating environment, and local AI workflows into one ecosystem.
-
-The project is designed to make AI more than a chat window by giving it a structured workspace for building software, managing projects, generating prompts, organizing files, and interacting with local AI models.
+<p align="center">
+  <img src="https://img.shields.io/badge/Qyvaria-AI%20Kernel-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Type-Single%20File%20Python%20Runtime-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge" />
+</p>
 
 ---
 
-# Qyvaria AI
+## Overview
 
-Qyvaria AI is the intelligence layer of the project.
+**Qyvaria** is an open-source AI engineering runtime built around a single-file Python kernel (`qyvaria.py`). It is designed as a modular prompt-generation and orchestration system for image-generation workflows, multi-engine prompt structuring, and AI experimentation.
 
-It provides tools for:
-
-- AI-assisted software development
-- Prompt generation
-- Local AI model integration
-- Multi-model workflows
-- Agent experimentation
-- Automation
-- Context-aware AI assistance
-
-Qyvaria AI is designed to work with both cloud and local models while keeping the user in control of data and execution.
+Rather than being a traditional application, Qyvaria acts as a **lightweight AI kernel layer** that transforms structured input (subjects, styles, environments, and parameters) into deterministic or semi-randomized prompt systems for downstream generative engines such as SDXL, MidJourney-style pipelines, Flux, or generic text-to-image systems.
 
 ---
 
-# Qyvaria OS
+## Core Concept
 
-Qyvaria OS is an operating-system-style workspace built around AI.
+Qyvaria is built on the idea of a **Prompt Kernel Architecture**:
 
-Rather than replacing Windows or Linux, it provides an environment where AI tools, files, projects, chats, and development utilities can work together inside one interface.
+- A structured input (`PromptSpec`)
+- A style system (cinematic, photoreal, anime, diagram, etc.)
+- Engine abstraction layer (SDXL / MidJourney / Flux / Generic)
+- Deterministic randomness via seed control
+- Negative prompt synthesis system
+- Output serialization (CLI / JSON / TXT)
 
-Planned features include:
-
-- Browser-native desktop
-- AI workspace
-- Integrated QyChat
-- Project management
-- Local AI integration
-- Modular applications
-- AI-powered productivity tools
-- Extensible plugin architecture
+This enables reproducible prompt generation across different AI image systems.
 
 ---
 
-# Main Components
+## Key Features
 
-- **Qyvaria AI** — AI software and intelligent workflows
-- **Qyvaria OS** — Browser-native AI operating environment
-- **QyChat** — Integrated AI assistant
-- **Qyvaria Browser** — AI-focused browser interface
-- **qyvaria.py** — Portable Python kernel and prompt engine
+### 🎨 Prompt Generation Engine
+Automatically constructs high-quality prompts from structured inputs:
+- Subject-driven prompt synthesis
+- Style packs (cinematic, photoreal, anime, vector, diagram, etc.)
+- Lighting, composition, and camera system presets
+- Material and environment augmentation
+
+### ⚙️ Multi-Engine Support
+Qyvaria supports multiple generation backends:
+- **SDXL-style pipelines**
+- **MidJourney-style formatting**
+- **Flux-compatible structure**
+- **Generic prompt output mode**
+
+### 🎲 Deterministic Randomization
+- Seed-based reproducibility
+- Controlled variation across outputs
+- Multi-prompt batch generation (`-n` parameter)
+
+### 🧠 Style Intelligence System
+Predefined style packs include:
+- Cinematic
+- Photoreal
+- Product photography
+- Interior design
+- Architecture
+- Macro
+- Watercolor
+- Pixel / vector / blueprint / UI mock
+
+### 📦 CLI-First Design
+Qyvaria is fully controllable via command-line interface:
+- JSON or text output modes
+- Batch generation support
+- Engine selection flags
+- Fully scriptable workflow integration
 
 ---
 
-# Why Qyvaria?
+## Installation
 
-Qyvaria aims to provide a complete AI ecosystem where developers and creators can build, organize, and interact with AI in a local-first environment instead of relying solely on web-based chat interfaces.
-
-The long-term vision is to create an open platform for AI engineering, productivity, automation, and software development.
-
----
-
-# Current Status
-
-🚧 Qyvaria is currently in active development.
-
-The project is evolving rapidly, and features, architecture, and documentation will continue to improve over time.
-
----
-
-# License
-
-Licensed under the Apache 2.0 License.
-
----
-
-## Creator
-
-Created by **Jan Havlasek**
-
-Building an open AI ecosystem focused on local-first intelligence, transparency, and human-controlled AI.
+```bash
+git clone https://github.com/Havlasek1John/Qyvaria.git
+cd Qyvaria
+python qyvaria.py --help
