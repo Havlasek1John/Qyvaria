@@ -1,46 +1,6 @@
-# Qyvaria OS
-
-![Qyvaria OS](assets/qyvaria-os.png)
-
-## 🚀 Download Qyvaria OS
-
-Qyvaria OS is the Qyvaria operating system project.
-
-### 📥 Download
-
-**[⬇️ Download Qyvaria OS](https://www.mediafire.com/file/iaf9x83nkx15no1/Qyvaria+OS.zip/file)**
-
-The download above provides the Qyvaria OS ZIP package.
-
-### 🎵 Qyvaria OS Music
-
-[![Qyvaria OS Music](assets/qyvaria-os.png)](https://music.youtube.com/watch?v=E88RFeGYxvI&list=RDAMVMD3UKel5zngU)
-
-Click the image to listen to the Qyvaria OS music.
-
----
-
-## 📦 Installation
-
-1. Download **Qyvaria OS** using the download link above.
-2. Extract the ZIP file.
-3. Follow the included files/instructions to set up Qyvaria OS.
-
-## 🌌 Qyvaria OS
-
-> **A Smarter Tomorrow**
-
-Qyvaria OS is part of the Qyvaria project, created to provide a unique operating-system experience.
-
----
-
-### 🔗 Links
-
-- **[Download Qyvaria OS](https://www.mediafire.com/file/iaf9x83nkx15no1/Qyvaria+OS.zip/file)**
-- **[Qyvaria OS Music](https://music.youtube.com/watch?v=E88RFeGYxvI&list=RDAMVMD3UKel5zngU)**
-
-
-
+<a href="https://www.mediafire.com/file/iaf9x83nkx15no1/Qyvaria+OS.zip/file" target="_blank">
+  <img src="https://img.shields.io/badge/Download-Qyvaria%20OS-blue?style=for-the-badge&logo=mediafire" alt="Download Qyvaria OS">
+</a>
 
 
 <div align="center">
@@ -849,3 +809,8 @@ See [`LICENSE`](./LICENSE) for the full text.
 **Qyvaria: one kernel, one dispatch path, one place to look when you need to know why something ran.**
 
 </div>
+
+<a href="https://www.mediafire.com/file/iaf9x83nkx15no1/Qyvaria+OS.zip/file" target="_blank">
+  <img src="https://img.shields.io/badge/Download-Qyvaria%20OS-blue?style=for-the-badge&logo=mediafire" alt="Download Qyvaria OS">
+</a>
+
