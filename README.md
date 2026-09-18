@@ -1,3 +1,46 @@
+# Qyvaria OS
+
+![Qyvaria OS](assets/qyvaria-os.png)
+
+## 🚀 Download Qyvaria OS
+
+Qyvaria OS is the Qyvaria operating system project.
+
+### 📥 Download
+
+**[⬇️ Download Qyvaria OS](https://www.mediafire.com/file/iaf9x83nkx15no1/Qyvaria+OS.zip/file)**
+
+The download above provides the Qyvaria OS ZIP package.
+
+### 🎵 Qyvaria OS Music
+
+[![Qyvaria OS Music](assets/qyvaria-os.png)](https://music.youtube.com/watch?v=E88RFeGYxvI&list=RDAMVMD3UKel5zngU)
+
+Click the image to listen to the Qyvaria OS music.
+
+---
+
+## 📦 Installation
+
+1. Download **Qyvaria OS** using the download link above.
+2. Extract the ZIP file.
+3. Follow the included files/instructions to set up Qyvaria OS.
+
+## 🌌 Qyvaria OS
+
+> **A Smarter Tomorrow**
+
+Qyvaria OS is part of the Qyvaria project, created to provide a unique operating-system experience.
+
+---
+
+### 🔗 Links
+
+- **[Download Qyvaria OS](https://www.mediafire.com/file/iaf9x83nkx15no1/Qyvaria+OS.zip/file)**
+- **[Qyvaria OS Music](https://music.youtube.com/watch?v=E88RFeGYxvI&list=RDAMVMD3UKel5zngU)**
+
+
+
 
 
 <div align="center">
