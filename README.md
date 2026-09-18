@@ -1,3 +1,8 @@
+<a href="https://music.youtube.com/watch?v=E88RFeGYxvI&list=RDAMVMD3UKel5zngU">
+  <img src="assets/qyvaria-os.png" alt="Qyvaria OS">
+</a>
+
+
 <div align="center">
 
 # Qyvaria
