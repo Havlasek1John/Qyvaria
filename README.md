@@ -1,3 +1,9 @@
+## Download Qyvaria OS (Stable)
+
+**[⬇️ Download Qyvaria OS (Stable) – 6.67 GB](https://www.mediafire.com/file/yow2xj7qa99j8tu/Qyvaria+OS+(Stable).zip/file)**
+
+> Direct MediaFire link • Uploaded 2026-09-27
+
 
 
 # Qyvaria
