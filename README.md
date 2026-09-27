@@ -1,9 +1,4 @@
-<a href="https://www.mediafire.com/file/iaf9x83nkx15no1/Qyvaria+OS.zip/file" target="_blank">
-  <img src="https://img.shields.io/badge/Download-Qyvaria%20OS-blue?style=for-the-badge&logo=mediafire" alt="Download Qyvaria OS">
-</a>
 
-
-<div align="center">
 
 # Qyvaria
 
